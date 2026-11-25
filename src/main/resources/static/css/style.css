@@ -1,0 +1,24 @@
+/* 외부 스타일시트 */
+/* body 태그에 적용 */
+body {
+    font-family: Arial, sans-serif;
+    padding: 24px;
+    background: #f7f3e8;
+}
+
+.treasure-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.treasure {
+    width: 200px;
+    height: 150px;
+    background: skyblue;
+    border: 5px solid brown;
+    border-radius: 18px;
+    text-align: center;
+    line-height: 150px;
+    font-size: 22px;
+}
